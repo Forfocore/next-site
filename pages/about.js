@@ -1,6 +1,6 @@
 import Menu from "../components/menu";
 
-export default function Index() {
+export default function About() {
   return (
     <div className="site">
       <div className="site__wrapper">
@@ -8,8 +8,8 @@ export default function Index() {
           <Menu />
         </div>
         <div className="site__content">
-          <div className="content__slider">
-              Слайдер
+          <div className="content__about">
+              Подробнее
           </div>
         </div>
       </div>
