@@ -1,5 +1,6 @@
+import Footer from "../components/footer";
 import Menu from "../components/menu";
-
+import SimpleSlider from "../components/slide";
 export default function Index() {
   return (
     <div className="site">
@@ -8,11 +9,10 @@ export default function Index() {
           <Menu />
         </div>
         <div className="site__content">
-          <div className="content__slider">
-              Слайдер
-          </div>
+          <SimpleSlider />
         </div>
+        <Footer />
       </div>
     </div>
-  )
+  );
 }
